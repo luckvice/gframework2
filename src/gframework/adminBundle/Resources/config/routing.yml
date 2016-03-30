@@ -1,0 +1,16 @@
+admin_noticias:
+    resource: "@adminBundle/Resources/config/routing/noticias.yml"
+    prefix:   /noticias
+
+admin:
+    path:     /admin
+    defaults: { _controller: "adminBundle:Default:index" }
+    
+    
+
+usuarios:
+    path:     /teste
+    defaults: { _controller: "adminBundle:Usuarios:index" }
+    
+    
+    
